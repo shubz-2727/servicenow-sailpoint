@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="c5403545dbee00101ed2c4ab0b96196a" sys_domain="global" table="core_company" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-23 04:19:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>99403545dbee00101ed2c4ab0b9619b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="core_company" name="core_company" sys_domain="global" view="81403545dbee00101ed2c4ab0b961965">c5403545dbee00101ed2c4ab0b96196a</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="core_company" sys_domain="global" view="81403545dbee00101ed2c4ab0b961965">01403545dbee00101ed2c4ab0b961969</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-23 04:19:52</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>core_company</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-23 04:19:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c5403545dbee00101ed2c4ab0b96196a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>core_company</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope>
+            <sys_update_name>sys_ui_form_sections_c5403545dbee00101ed2c4ab0b96196a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-23 04:19:52</sys_updated_on>
+            <sys_user/>
+            <view display_value="Parent" name="Parent">81403545dbee00101ed2c4ab0b961965</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

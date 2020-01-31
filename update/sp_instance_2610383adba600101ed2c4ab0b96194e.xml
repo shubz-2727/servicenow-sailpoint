@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">1af71d25770033002f3c73a1a910610a</sp_column>
+        <sp_widget display_value="SC Categories">4c03cba0cb11020000f8d856634c9ce1</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-28 10:08:52</sys_created_on>
+        <sys_id>2610383adba600101ed2c4ab0b96194e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Categories</sys_name>
+        <sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope>
+        <sys_update_name>sp_instance_2610383adba600101ed2c4ab0b96194e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-28 10:08:52</sys_updated_on>
+        <title>Categories</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"hide_xs": {
+		"value": true,
+		"displayValue": true
+	},
+	"omit_badges": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"check_can_view": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"category_layout": {
+		"value": "Nested",
+		"displayValue": "Nested"
+	},
+	"page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"number_of_categories_to_load": {
+		"value": 15,
+		"displayValue": "15"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=2610383adba600101ed2c4ab0b96194e"/>
+</record_update>

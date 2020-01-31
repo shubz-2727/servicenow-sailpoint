@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_423236_snow_sail_sailpoint_identity_request</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Craete request order</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	var gr_re = new GlideRecord('sc_request');
+	var gr_rtm = new GlideRecord('sc_req_item');
+	
+	gr_re.initialize();
+	gr_re.requested_for = current.u_requested_for;
+	gr_re.opened_by = current.u_opened_by;
+	gr_re.approval ='requested' ;
+	gr_re.request_state= 'requested';
+	
+	
+	var rn = gr_re.insert();
+	
+	gr_rtm.initialize();
+	gr_rtm.request = rn;
+	gr_rtm.cat_item = current.u_rapp_role;
+	gr_rtm.insert();
+	
+	
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-25 09:59:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>960c4df1dba204101ed2c4ab0b9619db</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Craete request order</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope>
+        <sys_update_name>sys_script_960c4df1dba204101ed2c4ab0b9619db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-25 10:05:10</sys_updated_on>
+        <template/>
+        <when>async</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=960c4df1dba204101ed2c4ab0b9619db"/>
+</record_update>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>POST</http_method>
+        <name>testing_data</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    // implement resource here
+	gs.info(request.body);
+	//var myJSON = JSON.stringify(request.body);
+
+	var requestBody = request.body;
+    var requestString = requestBody.dataString;
+	gs.info(requestString);
+	var mydata=JSON.parse(requestString);
+	
+	for (var key in mydata) {
+
+		var gr = new GlideRecord('x_423236_snow_sail_identity');
+		var gr1 =new GlideRecord('x_423236_snow_sail_nbn_applications');
+		//var gr1 = new GlideRecord('nbnapplication')
+		gr.initialize(); 
+		gr1.initialize();
+		var i =gr1.query("u_applications",key);
+				
+        gr1.application =key; 
+		var sys_id = gr1.insert();
+		for (i=0;i<mydata[key].length;i++){
+			gs.info(mydata[key][i]);
+			var myrole = mydata[key][i];
+			//gr.role = myrole; 
+			//gr.query("application",key)
+			gr.u_role = myrole;
+			gr.u_application = sys_id;
+			gr.insert();
+		}
+		gs.info(key);
+		
+	}
+	
+	
+	var url = request.url;
+    return {
+        "url": url
+    };
+	
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_423236_snow_sail/sailpoint_app_role/test_data</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/test_data</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-24 10:15:30</sys_created_on>
+        <sys_id>8eda0461db2e80101ed2c4ab0b96190b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>testing_data</sys_name>
+        <sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope>
+        <sys_update_name>sys_ws_operation_8eda0461db2e80101ed2c4ab0b96190b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-24 10:19:41</sys_updated_on>
+        <web_service_definition display_value="Sailpoint App/Role ">5daacc21db2e80101ed2c4ab0b9619c6</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

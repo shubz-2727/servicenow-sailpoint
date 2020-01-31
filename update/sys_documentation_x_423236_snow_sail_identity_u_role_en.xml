@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_role" label="Role" language="en" table="x_423236_snow_sail_identity">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_role</element>
+            <help/>
+            <hint/>
+            <label>Role</label>
+            <language>en</language>
+            <name>x_423236_snow_sail_identity</name>
+            <plural>Roles</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-23 10:43:18</sys_created_on>
+            <sys_id>f9080fc5db6640101ed2c4ab0b961908</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Role</sys_name>
+            <sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope>
+            <sys_update_name>sys_documentation_x_423236_snow_sail_identity_u_role_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-23 10:43:18</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

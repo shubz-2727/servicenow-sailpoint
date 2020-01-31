@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Sailpoint Identity Request">ebfa107ddbaec0101ed2c4ab0b9619e6</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Sailpoint Identity Requests</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_423236_snow_sail_sailpoint_identity_request</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_423236_snow_sail.sailpoint_identity_request_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-25 06:02:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>73fa107ddbaec0101ed2c4ab0b9619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sailpoint Identity Requests</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope>
+        <sys_update_name>sys_app_module_73fa107ddbaec0101ed2c4ab0b9619ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-25 06:02:44</sys_updated_on>
+        <timeline_page/>
+        <title>Sailpoint Identity Requests</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</application>
+        <file_path/>
+        <instance_id>0dfc6f02db7bbb008aea21c4059619eb</instance_id>
+        <instance_name>dev93413</instance_name>
+        <name>sys_app_module_73fa107ddbaec0101ed2c4ab0b9619ea</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Sailpoint Identity Request">ebfa107ddbaec0101ed2c4ab0b9619e6</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Sailpoint Identity Requests</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_423236_snow_sail_sailpoint_identity_request</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_423236_snow_sail.sailpoint_identity_request_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-25 06:02:44</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>73fa107ddbaec0101ed2c4ab0b9619ea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Sailpoint Identity Requests</sys_name><sys_overrides/><sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package><sys_policy/><sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope><sys_update_name>sys_app_module_73fa107ddbaec0101ed2c4ab0b9619ea</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-25 06:02:44</sys_updated_on><timeline_page/><title>Sailpoint Identity Requests</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>266465306</payload_hash>
+        <record_name>Sailpoint Identity Requests</record_name>
+        <reverted_from/>
+        <source>1ea2e2ccdb2200101ed2c4ab0b961983</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-25 06:02:45</sys_created_on>
+        <sys_id>33fa107ddbaec0101ed2c4ab0b9619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16fdb4ba3990000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-25 06:02:45</sys_updated_on>
+        <type>Module</type>
+        <update_guid>7bfa107d26aec01067352d628949f1ec</update_guid>
+        <update_guid_history>7bfa107d26aec01067352d628949f1ec:266465306</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Sailpoint Identity Requests">de7c9cbddbaec0101ed2c4ab0b961967</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-25 06:09:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>4a7f6eab308b4ba8991575dd436c4310</sys_id>
+        <sys_metadata>73fa107ddbaec0101ed2c4ab0b9619ea</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sailpoint Identity Requests</sys_name>
+        <sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope>
+        <sys_scope_delete display_value="">e810cb81a14e4f88a11bc4bcae504240</sys_scope_delete>
+        <sys_update_name>sys_app_module_73fa107ddbaec0101ed2c4ab0b9619ea</sys_update_name>
+        <sys_update_version display_value="sys_app_module_73fa107ddbaec0101ed2c4ab0b9619ea">33fa107ddbaec0101ed2c4ab0b9619ed</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-25 06:09:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

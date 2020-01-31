@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="NBN Applications" max_length="40" name="x_423236_snow_sail_nbn_applications" type="collection">
+        <element display="true" label="Application" max_length="40" name="u_applications" type="string"/>
+        <element label="Descriptions" max_length="100" name="u_descrip" type="string"/>
+        <element label="Partner" max_length="32" name="u_partner_name" reference="core_company" reference_floats="true" type="reference"/>
+        <index name="index">
+            <element name="u_partner_name"/>
+        </index>
+    </element>
+</database>

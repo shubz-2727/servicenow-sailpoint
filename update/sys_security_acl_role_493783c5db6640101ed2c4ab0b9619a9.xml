@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-23 10:39:41</sys_created_on>
+        <sys_id>493783c5db6640101ed2c4ab0b9619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_423236_snow_sail_nbn_applications.x_423236_snow_sail.nbn_applications_user</sys_name>
+        <sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope>
+        <sys_security_acl display_value="x_423236_snow_sail_nbn_applications">853783c5db6640101ed2c4ab0b9619a5</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_493783c5db6640101ed2c4ab0b9619a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-23 10:39:41</sys_updated_on>
+        <sys_user_role display_value="x_423236_snow_sail.nbn_applications_user" name="x_423236_snow_sail.nbn_applications_user">7c378705db6640101ed2c4ab0b9619e4</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

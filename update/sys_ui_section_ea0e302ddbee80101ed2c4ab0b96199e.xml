@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="ea0e302ddbee80101ed2c4ab0b96199e" sys_domain="global" table="x_423236_snow_sail_identity" version="3" view="Partner">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_employee</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-24 13:57:23</sys_created_on>
+            <sys_id>f60e302ddbee80101ed2c4ab0b9619eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_423236_snow_sail_identity" sys_domain="global" view="7163cf9ddba680101ed2c4ab0b9619cd">ea0e302ddbee80101ed2c4ab0b96199e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-24 13:57:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_role</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-24 13:57:23</sys_created_on>
+            <sys_id>7e0e302ddbee80101ed2c4ab0b9619eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_423236_snow_sail_identity" sys_domain="global" view="7163cf9ddba680101ed2c4ab0b9619cd">ea0e302ddbee80101ed2c4ab0b96199e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-24 13:57:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-24 13:57:23</sys_created_on>
+            <sys_id>fe0e302ddbee80101ed2c4ab0b9619eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_423236_snow_sail_identity" sys_domain="global" view="7163cf9ddba680101ed2c4ab0b9619cd">ea0e302ddbee80101ed2c4ab0b96199e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-24 13:57:23</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_requested_by</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-24 13:57:23</sys_created_on>
+            <sys_id>720e302ddbee80101ed2c4ab0b9619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_423236_snow_sail_identity" sys_domain="global" view="7163cf9ddba680101ed2c4ab0b9619cd">ea0e302ddbee80101ed2c4ab0b96199e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-24 13:57:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_application</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-24 13:57:23</sys_created_on>
+            <sys_id>f20e302ddbee80101ed2c4ab0b9619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_423236_snow_sail_identity" sys_domain="global" view="7163cf9ddba680101ed2c4ab0b9619cd">ea0e302ddbee80101ed2c4ab0b96199e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-24 13:57:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-24 13:57:23</sys_created_on>
+            <sys_id>760e302ddbee80101ed2c4ab0b9619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_423236_snow_sail_identity" sys_domain="global" view="7163cf9ddba680101ed2c4ab0b9619cd">ea0e302ddbee80101ed2c4ab0b96199e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-24 13:57:23</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-24 13:57:23</sys_created_on>
+            <sys_id>f60e302ddbee80101ed2c4ab0b9619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_423236_snow_sail_identity" sys_domain="global" view="7163cf9ddba680101ed2c4ab0b9619cd">ea0e302ddbee80101ed2c4ab0b96199e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-24 13:57:23</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_description</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-24 13:57:23</sys_created_on>
+            <sys_id>7a0e302ddbee80101ed2c4ab0b9619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_423236_snow_sail_identity" sys_domain="global" view="7163cf9ddba680101ed2c4ab0b9619cd">ea0e302ddbee80101ed2c4ab0b96199e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-24 13:57:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-24 13:57:23</sys_created_on>
+            <sys_id>fa0e302ddbee80101ed2c4ab0b9619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_423236_snow_sail_identity" sys_domain="global" view="7163cf9ddba680101ed2c4ab0b9619cd">ea0e302ddbee80101ed2c4ab0b96199e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-24 13:57:23</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_423236_snow_sail_identity</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-24 13:57:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ea0e302ddbee80101ed2c4ab0b96199e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_423236_snow_sail_identity</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope>
+            <sys_update_name>sys_ui_section_ea0e302ddbee80101ed2c4ab0b96199e</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-24 13:57:22</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Partner" name="Partner">7163cf9ddba680101ed2c4ab0b9619cd</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope,$rootScope) {
+  /* widget controller */
+  var c = this;
+	
+	c.$onInit = function() {
+		c.selectedSlot = "";
+		c.employee= c.data.employeeList;
+
+	};
+	
+	c.checkAccess = function(empName){
+		
+	
+		c.server.get({
+			
+			action: 'getAccess',
+			forEmp : c.selectedEmployee.name.display_value
+			
+		}).then(function(response) {
+			c.access = JSON.parse(response.data.empAccess);
+			//gs.info("in access re= "+c.access);
+			if (response.data.empAccess && response.data.empAccess.length > 0) {
+				//c.access = JSON.parse(response.data.empAccess);
+				if (c.options.layout == 'Dropdown') {
+					c.selectedSlot = c.timeSLots[0];
+
+				}
+			}
+
+		});
+	};
+	
+
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.category-widget {
+	border: 1px solid $panel-inner-border;
+  
+  .category-list {
+    .fa {
+      margin-right: 5px;
+    }
+    .l-h-1_6x {
+      line-height: 1.6em;
+    }
+    a {
+		width: 100%;
+      	vertical-align: middle;
+	    display: inline-block;
+    }
+    .list-group {
+      margin-bottom: 0;
+       max-height: 50px;
+     overflow-y: auto;
+    }
+    .list-group-item {
+      padding: 0;
+      border: 0;
+     
+      
+    }
+    .group-item {
+      padding: 10px 15px;
+    }
+    .group-item-default {
+      &amp;:hover, &amp;:focus {
+        background-color: darken($panel-default-heading-bg, 2%);
+      }
+    }
+    .group-item-primary {
+      &amp;:hover, &amp;:focus {
+        border-left: 3px solid $primary !important;
+      }
+    }
+    .group-item-success {
+      &amp;:hover {
+        background-color: lighten($panel-success-heading-bg, 3%)
+      }
+    }
+    .group-item-info {
+      &amp;:hover, &amp;:focus {
+        background-color: lighten($panel-info-heading-bg, 3%)
+      }
+    }
+    .group-item-warning {
+      &amp;:hover, &amp;:focus {
+        background-color: $panel-warning-heading-bg
+      }
+    }
+    .group-item-danger {
+      &amp;:hover, &amp;:focus {
+        background-color: lighten($panel-danger-heading-bg, 3%)
+      }
+    }
+    
+    .list-bg-default {
+      background-color: $panel-default-heading-bg;
+    }
+    .list-bg-primary {
+      background-color: lighten($panel-info-heading-bg, 6%);
+    }
+    .list-bg-success {
+      background-color: lighten($panel-success-heading-bg, 6%);
+    }
+    .list-bg-info {
+      background-color: lighten($panel-info-heading-bg, 6%);
+    }
+    .list-bg-warning {
+      background-color: lighten($panel-warning-heading-bg, 3%);
+    }
+    .list-bg-danger {
+      background-color: lighten($panel-danger-heading-bg, 6%);
+    }
+  }
+}
+.panel-primary .badge {
+  background-color: $primary;
+  color: white;
+}
+.panel-default .badge {
+  background-color: $panel-default-text;
+  color: white
+}
+.panel-success .badge {
+  background-color:  $panel-success-text;
+  color: white;
+}
+.panel-info .badge {
+  background-color: $panel-info-text;
+  color: white;
+}
+.panel-warning .badge {
+  background-color: $panel-warning-text;
+  color: white;
+}
+.panel-danger .badge {
+  background-color: $panel-danger-text;
+  color: white;
+}
+.category-list .badge {
+  text-align: right;
+}
+.text-active {
+   color: $link-color;
+   border-left: 3px solid $primary
+}
+.text-default {
+   color: $text-muted;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>access_request</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Access request</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+	data.employeeList = getEmployee();
+	
+	
+	
+	function getEmployee() {
+			
+    var gr = new GlideRecord('sys_user');
+		var employeeList = [];
+		var company = gs.getUser().getCompanyID();
+		
+		gr.addQuery('company',company);
+    gr.query();
+
+		while (gr.next()) {
+			var obj = {};
+            $sp.getRecordElements(obj, gr, 'name,company');
+            employeeList.push(obj);
+
+		}
+		//var answer = new JSON().encode(doctorList);
+		return employeeList;
+		
+	}
+	
+		if(input){
+		
+			 if (input.action == 'getAccess') {
+						gs.info("in action");
+            data.empAccess = new GetSailpointData().getAccess(input.forEmp);
+			      
+        }
+		}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-28 05:16:54</sys_created_on>
+        <sys_id>e14deba2db6200101ed2c4ab0b961902</sys_id>
+        <sys_mod_count>66</sys_mod_count>
+        <sys_name>Access request</sys_name>
+        <sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope>
+        <sys_update_name>sp_widget_e14deba2db6200101ed2c4ab0b961902</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-29 09:06:40</sys_updated_on>
+        <template><![CDATA[<div class="col-xs-12 remove-padding-left slot-selector">
+
+
+  <div class="form-group col-md-12 remove-padding-left" >
+    <p   class="no-slots" ng-show="c.doctor.length == 0">
+      -- No doctors allocated --
+    </p>
+
+
+    <select placeholder="Filter" ng-show="c.employee.length != 0" class="form-control" ng-options="employee as employee.name.display_value for employee in c.employee" ng-model="c.selectedEmployee" ></select>
+
+  </div>   
+  
+  
+  <div>
+ <button id='btnContinue' class="btn btn-primary btn-submit"  ng-click="c.checkAccess(c.selectedEmployee)">Check Access</button>
+{{c.name}}
+  </div>
+  
+  
+  <div>
+    <div class="list-group col-xs-6">
+      <div class="panel-primary panel-heading">
+        <h2 class="h4 panel-title">
+          Assigned Role
+        </h2>
+      </div>
+    
+      
+      <a class="list-group-item" ng-click="c.selectItem($index)" ng-repeat="employee in c.employee | filter: noteFilter">
+        <h4 class="list-group-item-heading">
+          {{employee.name.display_value}}
+        </h4>
+      </a>
+    </div>
+
+    <div class="list-group col-xs-6">
+      <div class="panel-primary panel-heading">
+        <h2 class="h4 panel-title">
+          Available Role
+        </h2>
+      </div>
+     <a class="list-group-item" ng-click="c.selectItem($index)" ng-repeat="employee in c.employee | filter: noteFilter">
+        <h4 class="list-group-item-heading">
+          {{employee.name.display_value}}
+        </h4>
+      </a>
+    </div>
+  </div>
+  <h3>
+    {{c.access}}
+  </h3>
+   <div>
+ <button id='btnContinue' class="btn btn-primary btn-submit" ng-class="{'disabled':!c.selectedEmployee}" ng-click="c.checkAccess(c.selectedEmployee)">Order Now</button>
+
+  </div>
+
+</div>
+]]></template>
+    </sp_widget>
+</record_update>

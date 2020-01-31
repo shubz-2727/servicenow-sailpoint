@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New Section" section_id="09403545dbee00101ed2c4ab0b961969" sys_domain="global" table="core_company" version="3" view="Parent">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notes</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-23 04:19:52</sys_created_on>
+            <sys_id>95403545dbee00101ed2c4ab0b9619dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="core_company" sys_domain="global" view="81403545dbee00101ed2c4ab0b961965">09403545dbee00101ed2c4ab0b961969</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-23 04:19:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>core_company</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-23 04:19:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>09403545dbee00101ed2c4ab0b961969</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>New Section</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope>
+            <sys_update_name>sys_ui_section_09403545dbee00101ed2c4ab0b961969</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-23 04:19:52</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Parent" name="Parent">81403545dbee00101ed2c4ab0b961965</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</application>
+        <file_path/>
+        <instance_id>0dfc6f02db7bbb008aea21c4059619eb</instance_id>
+        <instance_name>dev93413</instance_name>
+        <name>sys_ui_section_09403545dbee00101ed2c4ab0b961969</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New Section" section_id="09403545dbee00101ed2c4ab0b961969" sys_domain="global" table="core_company" version="3" view="Parent"><sys_ui_element action="INSERT_OR_UPDATE"><element>notes</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-23 04:19:52</sys_created_on><sys_id>95403545dbee00101ed2c4ab0b9619dc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="core_company" sys_domain="global" view="81403545dbee00101ed2c4ab0b961965">09403545dbee00101ed2c4ab0b961969</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-23 04:19:52</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New Section</caption><header>false</header><name>core_company</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-23 04:19:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>09403545dbee00101ed2c4ab0b961969</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New Section</sys_name><sys_overrides/><sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package><sys_policy/><sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope><sys_update_name>sys_ui_section_09403545dbee00101ed2c4ab0b961969</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-23 04:19:52</sys_updated_on><sys_user/><title>false</title><view display_value="Parent" name="Parent">81403545dbee00101ed2c4ab0b961965</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1640964663</payload_hash>
+        <record_name>Company</record_name>
+        <reverted_from/>
+        <source>1ea2e2ccdb2200101ed2c4ab0b961983</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-23 04:19:52</sys_created_on>
+        <sys_id>d9403545dbee00101ed2c4ab0b9619dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16fd0a0bc040000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-23 04:19:52</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>55403545c1ee0010ac16a925cd0628dd</update_guid>
+        <update_guid_history>55403545c1ee0010ac16a925cd0628dd:-1640964663</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-23 04:23:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>45cd305050924665af0c9d6aa36d1e99</sys_id>
+        <sys_metadata>09403545dbee00101ed2c4ab0b961969</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Section</sys_name>
+        <sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package>
+        <sys_parent display_value="Core Company">5007bb20db0100101ed2c4ab0b96195b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope>
+        <sys_scope_delete display_value="">e810cb81a14e4f88a11bc4bcae504240</sys_scope_delete>
+        <sys_update_name>sys_ui_section_09403545dbee00101ed2c4ab0b961969</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_09403545dbee00101ed2c4ab0b961969">d9403545dbee00101ed2c4ab0b9619dd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-23 04:23:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

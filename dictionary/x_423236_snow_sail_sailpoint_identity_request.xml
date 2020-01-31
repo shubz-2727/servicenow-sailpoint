@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Sailpoint Identity Request" max_length="40" name="x_423236_snow_sail_sailpoint_identity_request" type="collection">
+        <element attributes="encode_utf8=false" label="Application" max_length="32" name="u_for_application" reference="sc_catalog" type="reference"/>
+        <element attributes="encode_utf8=false" label="Role" max_length="32" name="u_rapp_role" reference="sc_cat_item" type="reference"/>
+        <element attributes="encode_utf8=false" label="Requested By" max_length="32" name="u_requested_by" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Requested for" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="u_for_application"/>
+        </index>
+        <index name="index2">
+            <element name="u_rapp_role"/>
+        </index>
+        <index name="index3">
+            <element name="u_requested_for"/>
+        </index>
+        <index name="index4">
+            <element name="u_requested_by"/>
+        </index>
+    </element>
+</database>

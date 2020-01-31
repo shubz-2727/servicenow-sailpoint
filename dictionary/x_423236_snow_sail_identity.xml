@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Identity" max_length="40" name="x_423236_snow_sail_identity" type="collection">
+        <element label="Application" max_length="32" name="u_application" reference="x_423236_snow_sail_nbn_applications" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="300" name="u_description" type="string"/>
+        <element label="Employee" max_length="32" name="u_employee" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Opened by" max_length="32" name="u_requested_by" reference="sys_user" type="reference"/>
+        <element label="Role" max_length="40" name="u_role" type="string"/>
+        <index name="index">
+            <element name="u_employee"/>
+        </index>
+        <index name="index2">
+            <element name="u_application"/>
+        </index>
+        <index name="index3">
+            <element name="u_requested_by"/>
+        </index>
+    </element>
+</database>

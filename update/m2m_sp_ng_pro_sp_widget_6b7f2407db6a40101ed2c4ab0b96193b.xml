@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_ng_pro_sp_widget">
+    <m2m_sp_ng_pro_sp_widget action="INSERT_OR_UPDATE">
+        <sp_angular_provider display_value="scToggleData">c045f99a0b67320014ea425663673a25</sp_angular_provider>
+        <sp_widget display_value="order widget">937f6cc3db6a40101ed2c4ab0b9619fa</sp_widget>
+        <sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-29 04:44:41</sys_created_on>
+        <sys_id>6b7f2407db6a40101ed2c4ab0b96193b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>scToggleData.order widget</sys_name>
+        <sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope>
+        <sys_update_name>m2m_sp_ng_pro_sp_widget_6b7f2407db6a40101ed2c4ab0b96193b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-29 04:44:41</sys_updated_on>
+    </m2m_sp_ng_pro_sp_widget>
+</record_update>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.text_index_translations=true,global_search_config_handler=CompanySearchConfig" create_roles="user_admin" label="Company" max_length="40" name="core_company" text_index="true" type="collection">
+        <element attributes="encode_utf8=false" label="Partner Administrator" max_length="32" name="x_423236_snow_sail_u_partner_admin" reference="sys_user" type="reference"/>
+    </element>
+</database>
