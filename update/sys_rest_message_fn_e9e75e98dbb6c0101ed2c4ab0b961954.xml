@@ -4,27 +4,33 @@
         <basic_auth_password/>
         <basic_auth_profile/>
         <basic_auth_user/>
-        <content/>
-        <function_name>GETEmployeeAccess</function_name>
-        <http_method>get</http_method>
+        <content>{&#13;
+"name":"${name}",&#13;
+"email": "${email}",&#13;
+"displayName": "${displayName}",&#13;
+"password": "${password}"&#13;
+&#13;
+}</content>
+        <function_name>CreateIdentity</function_name>
+        <http_method>post</http_method>
         <lock>false</lock>
         <oauth2_profile/>
         <protocol_name/>
-        <qualified_name>Sailpoint [ GETEmployeeAccess ]</qualified_name>
-        <rest_endpoint>http://54.236.208.193/checkrole/${Identity}</rest_endpoint>
+        <qualified_name>Sailpoint [ CreateIdentity ]</qualified_name>
+        <rest_endpoint>http://54.236.208.193/identity</rest_endpoint>
         <rest_message display_value="Sailpoint">9f78748fdb6a40101ed2c4ab0b9619a5</rest_message>
         <sys_class_name>sys_rest_message_fn</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-01-29 05:25:34</sys_created_on>
-        <sys_id>9ed8b4cfdb6a40101ed2c4ab0b961924</sys_id>
+        <sys_created_on>2020-02-02 09:33:41</sys_created_on>
+        <sys_id>e9e75e98dbb6c0101ed2c4ab0b961954</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name>GETEmployeeAccess</sys_name>
+        <sys_name>CreateIdentity</sys_name>
         <sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package>
         <sys_policy/>
         <sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope>
-        <sys_update_name>sys_rest_message_fn_9ed8b4cfdb6a40101ed2c4ab0b961924</sys_update_name>
+        <sys_update_name>sys_rest_message_fn_e9e75e98dbb6c0101ed2c4ab0b961954</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-04 05:56:06</sys_updated_on>
+        <sys_updated_on>2020-02-04 04:24:13</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mid_server/>
         <use_mutual_auth>false</use_mutual_auth>

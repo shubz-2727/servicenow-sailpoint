@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
+    <item_option_new action="DELETE">
+        <active>true</active>
+        <attributes/>
+        <cat_item display_value="Sailpoint Access Request item">a28137e7db2600101ed2c4ab0b961939</cat_item>
+        <category/>
+        <choice_direction>down</choice_direction>
+        <choice_field/>
+        <choice_table/>
+        <create_roles/>
+        <default_html_value/>
+        <default_value/>
+        <delete_roles/>
+        <delivery_plan/>
+        <description/>
+        <display_title>false</display_title>
+        <do_not_select_first>false</do_not_select_first>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <example_text/>
+        <field/>
+        <global>false</global>
+        <help_tag>More information</help_tag>
+        <help_text/>
+        <include_none>false</include_none>
+        <instructions/>
+        <layout>normal</layout>
+        <list_table/>
+        <lookup_label/>
+        <lookup_price/>
+        <lookup_table/>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value/>
+        <macro/>
+        <mandatory>false</mandatory>
+        <map_to_field>false</map_to_field>
+        <mask_use_confirmation>false</mask_use_confirmation>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>select_role</name>
+        <order>10</order>
+        <price_if_checked>0</price_if_checked>
+        <pricing_implications>false</pricing_implications>
+        <question_text>Select Role</question_text>
+        <read_roles/>
+        <rec_lookup_price/>
+        <rec_price_if_checked>0</rec_price_if_checked>
+        <record/>
+        <record_producer_table/>
+        <reference/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
+        <show_help>false</show_help>
+        <show_help_on_load>false</show_help_on_load>
+        <sp_widget/>
+        <summary_macro/>
+        <sys_class_name>item_option_new</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-31 08:35:03</sys_created_on>
+        <sys_id>5df37babdb2600101ed2c4ab0b961939</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Select Role</sys_name>
+        <sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope>
+        <sys_update_name>item_option_new_5df37babdb2600101ed2c4ab0b961939</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-31 09:07:23</sys_updated_on>
+        <table/>
+        <tooltip/>
+        <type>15</type>
+        <ui_page display_value="$agentSchedule">380a20dbc3671200467f10c422d3ae4a</ui_page>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
+        <validate_regex/>
+        <variable_name/>
+        <variable_set/>
+        <variable_width/>
+        <visibility>1</visibility>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <visible_summary>true</visible_summary>
+        <write_roles/>
+    </item_option_new>
+    <sys_translated_text action="DELETE" query="documentkey=5df37babdb2600101ed2c4ab0b961939"/>
+    <fx_price action="DELETE" query="id=5df37babdb2600101ed2c4ab0b961939"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="IQD">a1768db50a0a0b5400d06feba0bdbf21</currency>
+        <field>price_if_checked</field>
+        <id>5df37babdb2600101ed2c4ab0b961939</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-31 08:35:04</sys_created_on>
+        <sys_id>2d67fbafdb2600101ed2c4ab0b961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-31 08:35:04</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="IQD">a1768db50a0a0b5400d06feba0bdbf21</currency>
+        <field>rec_price_if_checked</field>
+        <id>5df37babdb2600101ed2c4ab0b961939</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-31 08:35:04</sys_created_on>
+        <sys_id>e167fbafdb2600101ed2c4ab0b961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-31 08:35:04</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</application>
+        <file_path/>
+        <instance_id>0dfc6f02db7bbb008aea21c4059619eb</instance_id>
+        <instance_name>dev93413</instance_name>
+        <name>item_option_new_5df37babdb2600101ed2c4ab0b961939</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Sailpoint Access Request item">a28137e7db2600101ed2c4ab0b961939</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>select_role</name><order>10</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Select Role</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-31 08:35:03</sys_created_on><sys_id>5df37babdb2600101ed2c4ab0b961939</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Select Role</sys_name><sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package><sys_policy/><sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope><sys_update_name>item_option_new_5df37babdb2600101ed2c4ab0b961939</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-31 09:07:23</sys_updated_on><table/><tooltip/><type>15</type><ui_page display_value="$agentSchedule">380a20dbc3671200467f10c422d3ae4a</ui_page><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>advanced</use_reference_qualifier><validate_regex/><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=5df37babdb2600101ed2c4ab0b961939"/><fx_price action="delete_multiple" query="id=5df37babdb2600101ed2c4ab0b961939"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="IQD">a1768db50a0a0b5400d06feba0bdbf21</currency><field>price_if_checked</field><id>5df37babdb2600101ed2c4ab0b961939</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-31 08:35:04</sys_created_on><sys_id>2d67fbafdb2600101ed2c4ab0b961929</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-31 08:35:04</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="IQD">a1768db50a0a0b5400d06feba0bdbf21</currency><field>rec_price_if_checked</field><id>5df37babdb2600101ed2c4ab0b961939</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-31 08:35:04</sys_created_on><sys_id>e167fbafdb2600101ed2c4ab0b961929</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-31 08:35:04</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>1613036028</payload_hash>
+        <record_name>Select Role</record_name>
+        <reverted_from/>
+        <source>1ea2e2ccdb2200101ed2c4ab0b961983</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-31 09:07:23</sys_created_on>
+        <sys_id>4bce3fe7db6600101ed2c4ab0b9619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16ffadad6800000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-31 09:07:23</sys_updated_on>
+        <type>Variable</type>
+        <update_guid>43ce3fe7d16600102a2de0a69685cebc</update_guid>
+        <update_guid_history>43ce3fe7d16600102a2de0a69685cebc:1613036028,6567fbafd42600105382d8f9046c482c:-1646618276</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Select Role">a3a040bbdb6600101ed2c4ab0b9619b7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-31 09:15:37</sys_created_on>
+        <sys_db_object display_value="" name="item_option_new">item_option_new</sys_db_object>
+        <sys_id>2df10582a39144648d23ad1d92b46990</sys_id>
+        <sys_metadata>5df37babdb2600101ed2c4ab0b961939</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Select Role</sys_name>
+        <sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package>
+        <sys_parent display_value="Sailpoint Access Request item">a28137e7db2600101ed2c4ab0b961939</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope>
+        <sys_scope_delete display_value="">e810cb81a14e4f88a11bc4bcae504240</sys_scope_delete>
+        <sys_update_name>item_option_new_5df37babdb2600101ed2c4ab0b961939</sys_update_name>
+        <sys_update_version display_value="item_option_new_5df37babdb2600101ed2c4ab0b961939">4bce3fe7db6600101ed2c4ab0b9619bc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-31 09:15:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

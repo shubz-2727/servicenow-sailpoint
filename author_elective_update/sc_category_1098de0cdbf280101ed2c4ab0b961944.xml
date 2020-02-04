@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
+    <sc_category action="DELETE">
+        <active>true</active>
+        <description/>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent display_value="Identity Management">05329fafdb6200101ed2c4ab0b9619d6</parent>
+        <roles/>
+        <sc_catalog display_value="Sailpoint Manage">91fd0367db6200101ed2c4ab0b961917</sc_catalog>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-01 14:58:04</sys_created_on>
+        <sys_id>1098de0cdbf280101ed2c4ab0b961944</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Idenity</sys_name>
+        <sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope>
+        <sys_update_name>sc_category_1098de0cdbf280101ed2c4ab0b961944</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-01 14:58:04</sys_updated_on>
+        <title>Idenity</title>
+    </sc_category>
+    <sys_translated_text action="DELETE" query="documentkey=1098de0cdbf280101ed2c4ab0b961944"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</application>
+        <file_path/>
+        <instance_id>0dfc6f02db7bbb008aea21c4059619eb</instance_id>
+        <instance_name>dev93413</instance_name>
+        <name>sc_category_1098de0cdbf280101ed2c4ab0b961944</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Identity Management">05329fafdb6200101ed2c4ab0b9619d6</parent><roles/><sc_catalog display_value="Sailpoint Manage">91fd0367db6200101ed2c4ab0b961917</sc_catalog><sys_class_name>sc_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-01 14:58:04</sys_created_on><sys_id>1098de0cdbf280101ed2c4ab0b961944</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Idenity</sys_name><sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package><sys_policy/><sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope><sys_update_name>sc_category_1098de0cdbf280101ed2c4ab0b961944</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-01 14:58:04</sys_updated_on><title>Idenity</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=1098de0cdbf280101ed2c4ab0b961944"/></record_update>]]></payload>
+        <payload_hash>1511945009</payload_hash>
+        <record_name>Idenity</record_name>
+        <reverted_from/>
+        <source>1ea2e2ccdb2200101ed2c4ab0b961983</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-01 14:58:04</sys_created_on>
+        <sys_id>b5a8524cdbf280101ed2c4ab0b96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170014242850000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-01 14:58:04</sys_updated_on>
+        <type>Category</type>
+        <update_guid>fda8524cacf28010830aa97cf43aad2b</update_guid>
+        <update_guid_history>fda8524cacf28010830aa97cf43aad2b:1511945009</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Idenity">34b8924cdbf280101ed2c4ab0b961947</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-01 14:58:17</sys_created_on>
+        <sys_db_object display_value="" name="sc_category">sc_category</sys_db_object>
+        <sys_id>7f4a233035cd4e679ace807de82143a9</sys_id>
+        <sys_metadata>1098de0cdbf280101ed2c4ab0b961944</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Idenity</sys_name>
+        <sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope>
+        <sys_scope_delete display_value="">e810cb81a14e4f88a11bc4bcae504240</sys_scope_delete>
+        <sys_update_name>sc_category_1098de0cdbf280101ed2c4ab0b961944</sys_update_name>
+        <sys_update_version display_value="sc_category_1098de0cdbf280101ed2c4ab0b961944">b5a8524cdbf280101ed2c4ab0b96192c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-01 14:58:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

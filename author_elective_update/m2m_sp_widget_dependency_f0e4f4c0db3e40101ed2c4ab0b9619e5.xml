@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="DELETE">
+        <sp_dependency display_value="DualListBoostrap">c49628c0dbfa40101ed2c4ab0b9619e2</sp_dependency>
+        <sp_widget display_value="Access request">e14deba2db6200101ed2c4ab0b961902</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-01 07:42:12</sys_created_on>
+        <sys_id>f0e4f4c0db3e40101ed2c4ab0b9619e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DualListBoostrap.Access request</sys_name>
+        <sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_f0e4f4c0db3e40101ed2c4ab0b9619e5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-01 07:42:12</sys_updated_on>
+    </m2m_sp_widget_dependency>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</application>
+        <file_path/>
+        <instance_id>0dfc6f02db7bbb008aea21c4059619eb</instance_id>
+        <instance_name>dev93413</instance_name>
+        <name>m2m_sp_widget_dependency_f0e4f4c0db3e40101ed2c4ab0b9619e5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency"><m2m_sp_widget_dependency action="INSERT_OR_UPDATE"><sp_dependency display_value="DualListBoostrap">c49628c0dbfa40101ed2c4ab0b9619e2</sp_dependency><sp_widget display_value="Access request">e14deba2db6200101ed2c4ab0b961902</sp_widget><sys_class_name>m2m_sp_widget_dependency</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-01 07:42:12</sys_created_on><sys_id>f0e4f4c0db3e40101ed2c4ab0b9619e5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>DualListBoostrap.Access request</sys_name><sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package><sys_policy/><sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope><sys_update_name>m2m_sp_widget_dependency_f0e4f4c0db3e40101ed2c4ab0b9619e5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-01 07:42:12</sys_updated_on></m2m_sp_widget_dependency></record_update>]]></payload>
+        <payload_hash>-619634974</payload_hash>
+        <record_name>DualListBoostrap.Access request</record_name>
+        <reverted_from/>
+        <source>1ea2e2ccdb2200101ed2c4ab0b961983</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-01 07:42:12</sys_created_on>
+        <sys_id>05e43804db3e40101ed2c4ab0b96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16fffb336980000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-01 07:42:12</sys_updated_on>
+        <type>Widget Dependency</type>
+        <update_guid>45e4f4c00a3e401027408dd8a43dcfe7</update_guid>
+        <update_guid_history>45e4f4c00a3e401027408dd8a43dcfe7:-619634974</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="DualListBoostrap.Access request">1c5802c4dbb280101ed2c4ab0b961980</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-01 13:46:43</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_widget_dependency">m2m_sp_widget_dependency</sys_db_object>
+        <sys_id>2c14b768e6c7412297e435e4bf66f9a4</sys_id>
+        <sys_metadata>f0e4f4c0db3e40101ed2c4ab0b9619e5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DualListBoostrap.Access request</sys_name>
+        <sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope>
+        <sys_scope_delete display_value="">e810cb81a14e4f88a11bc4bcae504240</sys_scope_delete>
+        <sys_update_name>m2m_sp_widget_dependency_f0e4f4c0db3e40101ed2c4ab0b9619e5</sys_update_name>
+        <sys_update_version display_value="m2m_sp_widget_dependency_f0e4f4c0db3e40101ed2c4ab0b9619e5">05e43804db3e40101ed2c4ab0b96199e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-01 13:46:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

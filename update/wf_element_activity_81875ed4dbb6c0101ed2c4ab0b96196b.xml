@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_element_activity">
+    <wf_element_activity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <attributes/>
+        <base_provider display_value="REST Web Service">8817a25e37222100aa40cc9fbe41f106</base_provider>
+        <category/>
+        <checked_out_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</checked_out_by>
+        <default_height/>
+        <default_width/>
+        <description/>
+        <image>images/heisenberg_icons/workflow_ie8/provider_rest.png</image>
+        <input_meta>{"name":"Input","type":"DATA_OBJECT","properties":[{"name":"name","type":"STRING","mandatory":true},{"name":"password","type":"STRING","mandatory":true},{"name":"email","type":"STRING","mandatory":true},{"name":"displayName","type":"STRING","mandatory":true}]}</input_meta>
+        <input_process_script/>
+        <input_transform>{"web_service_message":"9f78748fdb6a40101ed2c4ab0b9619a5","web_service_message_function":"e9e75e98dbb6c0101ed2c4ab0b961954","web_service_endpoint":"","parameters":"[{\"name\":\"name\",\"value\":\"${activityInput.name}\",\"additional_attribute\":\"\"},{\"name\":\"password\",\"value\":\"${activityInput.password}\",\"additional_attribute\":\"\"},{\"name\":\"email\",\"value\":\"${activityInput.email}\",\"additional_attribute\":\"\"},{\"name\":\"displayName\",\"value\":\"${activityInput.displayName}\",\"additional_attribute\":\"\"}]","headers":"[]","queryParameters":"[]","midCapabilities":"18409d8007482000dada43c0d1021e8f","use_mid_server":"false","time_out":"10","auth_type":"use_existing_credentials","credentials":"","protocol_profile":"","oauth_entity_profile":""}</input_transform>
+        <local_variables>{"name":"Local","type":"DATA_OBJECT","properties":[{"name":"localHeader","type":"DATA_OBJECT","properties":[]}]}</local_variables>
+        <name>Create Identity</name>
+        <output_meta>{"name":"Output","type":"DATA_OBJECT","properties":[{"name":"status_code","type":"INTEGER"},{"name":"header","type":"DATA_OBJECT"},{"name":"body","type":"STRING"},{"name":"error","type":"STRING"},{"name":"output","type":"DATA_OBJECT","properties":[{"name":"password","type":"STRING"},{"name":"displayName","type":"STRING"},{"name":"name","type":"STRING"},{"name":"email","type":"STRING"}]}]}</output_meta>
+        <output_process_script/>
+        <output_transform>[{"toLink":"activityOutput.status_code","to":"status_code","toType":"string","toDestination":"activityOutput","sourceLabel":"executionResult.status_code","from":"${executionResult.status_code}","fromSource":"executionResult","type":"Direct","translation":"","description":"","children":[]},{"toLink":"activityOutput.header","to":"header","toType":"string","toDestination":"activityOutput","sourceLabel":"executionResult.header","from":"${executionResult.header}","fromSource":"executionResult","type":"JSON","translation":"$","description":"","children":[]},{"toLink":"activityOutput.body","to":"body","toType":"string","toDestination":"activityOutput","sourceLabel":"executionResult.body","from":"${executionResult.body}","fromSource":"executionResult","type":"Direct","translation":"","description":"","children":[]},{"toLink":"activityOutput.error","to":"error","toType":"string","toDestination":"activityOutput","sourceLabel":"executionResult.error","from":"${executionResult.error}","fromSource":"executionResult","type":"Direct","translation":"","description":"","children":[]},{"toLink":"activityOutput.output","to":"output","toType":"string","toDestination":"activityOutput","sourceLabel":"executionResult.body","from":"${executionResult.body}","fromSource":"executionResult","type":"JSON","translation":"$","description":"","children":[]}]</output_transform>
+        <processing_script/>
+        <sample_payloads>{"executionResult.status_code":{"payload":200,"type":"direct"},"executionResult.header":{"payload":"{\"Server\":\"Werkzeug/0.16.0 Python/3.6.9\",\"Content-Length\":\"96\",\"Date\":\"Mon, 03 Feb 2020 06:39:11 GMT\",\"Content-Type\":\"application/json\"}","type":"direct"},"executionResult.body":{"payload":"{\n  \"displayName\": \"shubz\", \n  \"email\": \"sj@mail\", \n  \"name\": \"shubham\", \n  \"password\": \"123\"\n}\n","type":"direct"},"executionResult.error":{"payload":"null","type":"direct"}}</sample_payloads>
+        <short_description>Create identity</short_description>
+        <style/>
+        <sys_class_name>wf_element_activity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-02 09:42:18</sys_created_on>
+        <sys_id>81875ed4dbb6c0101ed2c4ab0b96196b</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>Create Identity</sys_name>
+        <sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope>
+        <sys_update_name>wf_element_activity_81875ed4dbb6c0101ed2c4ab0b96196b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-03 09:52:49</sys_updated_on>
+        <version_container_id>0af95698dbb6c0101ed2c4ab0b961910</version_container_id>
+    </wf_element_activity>
+    <sys_translated_text action="delete_multiple" query="documentkey=81875ed4dbb6c0101ed2c4ab0b96196b"/>
+    <wf_versionable action="INSERT_OR_UPDATE">
+        <checked_out>2020-02-02 09:42:18</checked_out>
+        <checked_out_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</checked_out_by>
+        <published>false</published>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-02 09:42:18</sys_created_on>
+        <sys_id>86f95698dbb6c0101ed2c4ab0b961911</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-02 09:42:18</sys_updated_on>
+        <valid_from/>
+        <valid_to/>
+        <version>1</version>
+        <version_container_id>0af95698dbb6c0101ed2c4ab0b961910</version_container_id>
+        <wf_element_definition display_value="Create Identity">81875ed4dbb6c0101ed2c4ab0b96196b</wf_element_definition>
+    </wf_versionable>
+    <wf_condition_default action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Create Identity">81875ed4dbb6c0101ed2c4ab0b96196b</activity_definition>
+        <condition/>
+        <derived_definition/>
+        <else_flag>true</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <name>failure</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-02 10:00:18</sys_created_on>
+        <sys_id>5c9c165cdbb6c0101ed2c4ab0b9619d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-02 10:00:18</sys_updated_on>
+    </wf_condition_default>
+    <wf_condition_default action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Create Identity">81875ed4dbb6c0101ed2c4ab0b96196b</activity_definition>
+        <condition>activityOutput.error==null</condition>
+        <derived_definition/>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <name>success</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-02 10:00:18</sys_created_on>
+        <sys_id>600a1698dbb6c0101ed2c4ab0b961957</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-03 09:52:49</sys_updated_on>
+    </wf_condition_default>
+</record_update>

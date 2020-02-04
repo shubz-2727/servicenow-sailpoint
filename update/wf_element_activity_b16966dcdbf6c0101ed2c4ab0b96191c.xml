@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_element_activity">
+    <wf_element_activity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <attributes/>
+        <base_provider display_value="REST Web Service">8817a25e37222100aa40cc9fbe41f106</base_provider>
+        <category/>
+        <checked_out_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</checked_out_by>
+        <default_height/>
+        <default_width/>
+        <description/>
+        <image>images/heisenberg_icons/workflow_ie8/provider_rest.png</image>
+        <input_meta>{"name":"Input","type":"DATA_OBJECT","properties":[{"name":"requestedFor","type":"STRING","mandatory":true},{"name":"requestRole","type":"STRING","mandatory":true}]}</input_meta>
+        <input_process_script/>
+        <input_transform>{"web_service_message":"9f78748fdb6a40101ed2c4ab0b9619a5","web_service_message_function":"8cb9eadcdbf6c0101ed2c4ab0b96190c","web_service_endpoint":"","parameters":"[{\"name\":\"requestedFor\",\"value\":\"${activityInput.requestedFor}\",\"additional_attribute\":\"\"},{\"name\":\"requestRole\",\"value\":\"${activityInput.requestRole}\",\"additional_attribute\":\"\"}]","headers":"[]","queryParameters":"[]","midCapabilities":"18409d8007482000dada43c0d1021e8f","use_mid_server":"false","time_out":"10","auth_type":"use_existing_credentials","credentials":"","protocol_profile":"","oauth_entity_profile":""}</input_transform>
+        <local_variables/>
+        <name>sailpoint request access api</name>
+        <output_meta>{"name":"Output","type":"DATA_OBJECT","properties":[{"name":"error","type":"STRING"}]}</output_meta>
+        <output_process_script/>
+        <output_transform>[{"toLink":"activityOutput.error","description":"","to":"error","toType":"string","toDestination":"activityOutput","sourceLabel":"executionResult.error","from":"${executionResult.error}","fromSource":"executionResult","type":"Direct","children":"[]","translation":""}]</output_transform>
+        <processing_script/>
+        <sample_payloads>{}</sample_payloads>
+        <short_description>sailpoint request access api</short_description>
+        <style/>
+        <sys_class_name>wf_element_activity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-02 10:50:19</sys_created_on>
+        <sys_id>b16966dcdbf6c0101ed2c4ab0b96191c</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>sailpoint request access api</sys_name>
+        <sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope>
+        <sys_update_name>wf_element_activity_b16966dcdbf6c0101ed2c4ab0b96191c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-03 10:09:12</sys_updated_on>
+        <version_container_id>92892edcdbf6c0101ed2c4ab0b9619b9</version_container_id>
+    </wf_element_activity>
+    <sys_translated_text action="delete_multiple" query="documentkey=b16966dcdbf6c0101ed2c4ab0b96191c"/>
+    <wf_versionable action="INSERT_OR_UPDATE">
+        <checked_out>2020-02-02 10:50:19</checked_out>
+        <checked_out_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</checked_out_by>
+        <published>false</published>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-02 10:50:19</sys_created_on>
+        <sys_id>12892edcdbf6c0101ed2c4ab0b9619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-02 10:50:19</sys_updated_on>
+        <valid_from/>
+        <valid_to/>
+        <version>1</version>
+        <version_container_id>92892edcdbf6c0101ed2c4ab0b9619b9</version_container_id>
+        <wf_element_definition display_value="sailpoint request access api">b16966dcdbf6c0101ed2c4ab0b96191c</wf_element_definition>
+    </wf_versionable>
+    <wf_condition_default action="INSERT_OR_UPDATE">
+        <activity_definition display_value="sailpoint request access api">b16966dcdbf6c0101ed2c4ab0b96191c</activity_definition>
+        <condition/>
+        <derived_definition/>
+        <else_flag>true</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <name>failure</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-02 11:01:14</sys_created_on>
+        <sys_id>31cbaa90db3ac0101ed2c4ab0b9619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-02 11:01:14</sys_updated_on>
+    </wf_condition_default>
+    <wf_condition_default action="INSERT_OR_UPDATE">
+        <activity_definition display_value="sailpoint request access api">b16966dcdbf6c0101ed2c4ab0b96191c</activity_definition>
+        <condition>activityOutput.error==null</condition>
+        <derived_definition/>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <name>success</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-02 11:01:14</sys_created_on>
+        <sys_id>b099e29cdbf6c0101ed2c4ab0b961907</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-03 10:08:51</sys_updated_on>
+    </wf_condition_default>
+</record_update>

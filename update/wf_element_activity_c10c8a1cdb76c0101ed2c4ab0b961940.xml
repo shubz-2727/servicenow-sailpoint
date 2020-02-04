@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_element_activity">
+    <wf_element_activity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <attributes/>
+        <base_provider display_value="REST Web Service">8817a25e37222100aa40cc9fbe41f106</base_provider>
+        <category/>
+        <checked_out_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</checked_out_by>
+        <default_height/>
+        <default_width/>
+        <description/>
+        <image>images/heisenberg_icons/workflow_ie8/provider_rest.png</image>
+        <input_meta>{"name":"Input","type":"DATA_OBJECT","properties":[{"name":"identity","type":"STRING","mandatory":false},{"name":"role","type":"STRING","mandatory":false}]}</input_meta>
+        <input_process_script/>
+        <input_transform>{"web_service_message":"9f78748fdb6a40101ed2c4ab0b9619a5","web_service_message_function":"492fea94db3ac0101ed2c4ab0b961992","web_service_endpoint":"","parameters":"[{\"name\":\"identity\",\"value\":\"${activityInput.identity}\",\"additional_attribute\":\"\"},{\"name\":\"role\",\"value\":\"${activityInput.role}\",\"additional_attribute\":\"\"}]","headers":"[]","queryParameters":"[]","midCapabilities":"18409d8007482000dada43c0d1021e8f","use_mid_server":"false","time_out":"10","auth_type":"use_existing_credentials","credentials":"","protocol_profile":"","oauth_entity_profile":""}</input_transform>
+        <local_variables/>
+        <name>Remove Access  API</name>
+        <output_meta>{"name":"Output","type":"DATA_OBJECT","properties":[{"name":"error","type":"STRING"}]}</output_meta>
+        <output_process_script/>
+        <output_transform>[{"toLink":"activityOutput.error","description":"","to":"error","toType":"string","toDestination":"activityOutput","sourceLabel":"executionResult.error","from":"${executionResult.error}","fromSource":"executionResult","type":"Direct","children":"[]","translation":""}]</output_transform>
+        <processing_script/>
+        <sample_payloads>{}</sample_payloads>
+        <short_description>remove given access</short_description>
+        <style/>
+        <sys_class_name>wf_element_activity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-02 08:42:24</sys_created_on>
+        <sys_id>c10c8a1cdb76c0101ed2c4ab0b961940</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Remove Access  API</sys_name>
+        <sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope>
+        <sys_update_name>wf_element_activity_c10c8a1cdb76c0101ed2c4ab0b961940</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-03 10:30:58</sys_updated_on>
+        <version_container_id>a44cc6d8db76c0101ed2c4ab0b96196b</version_container_id>
+    </wf_element_activity>
+    <sys_translated_text action="delete_multiple" query="documentkey=c10c8a1cdb76c0101ed2c4ab0b961940"/>
+    <wf_versionable action="INSERT_OR_UPDATE">
+        <checked_out>2020-02-02 08:42:24</checked_out>
+        <checked_out_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</checked_out_by>
+        <published>false</published>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-02 08:42:24</sys_created_on>
+        <sys_id>ec4cc6d8db76c0101ed2c4ab0b96196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-02 08:42:24</sys_updated_on>
+        <valid_from/>
+        <valid_to/>
+        <version>1</version>
+        <version_container_id>a44cc6d8db76c0101ed2c4ab0b96196b</version_container_id>
+        <wf_element_definition display_value="Remove Access  API">c10c8a1cdb76c0101ed2c4ab0b961940</wf_element_definition>
+    </wf_versionable>
+    <wf_condition_default action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Remove Access  API">c10c8a1cdb76c0101ed2c4ab0b961940</activity_definition>
+        <condition>activityOutput.error==null</condition>
+        <derived_definition/>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <name>success</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-02 16:04:57</sys_created_on>
+        <sys_id>4b90b390db7ec0101ed2c4ab0b9619bd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-03 10:30:58</sys_updated_on>
+    </wf_condition_default>
+    <wf_condition_default action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Remove Access  API">c10c8a1cdb76c0101ed2c4ab0b961940</activity_definition>
+        <condition/>
+        <derived_definition/>
+        <else_flag>true</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <name>failure</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-02 16:04:57</sys_created_on>
+        <sys_id>e0613fd0db7ec0101ed2c4ab0b961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-02 16:04:57</sys_updated_on>
+    </wf_condition_default>
+</record_update>

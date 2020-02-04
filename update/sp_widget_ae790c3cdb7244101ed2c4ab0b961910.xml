@@ -8,7 +8,7 @@
 		c.selectItem = function(idx) {  
 		// Set the position indicator to the index value passed in on select
 	//	c.emp = idx;
-		c.role = c.access.availble_role[idx];
+		c.role = c.access.assign_role[idx];
 			$scope.page.g_form.setValue('select_role', c.role)
 		
 	}
@@ -17,7 +17,7 @@
 	c.checkAccess = function(empName){
 		//c.employee = c.data.employeeList;
 	var g_form = $scope.page.g_form;
-	c.name = g_form.getDisplayValue('selected_user');
+	c.name = g_form.getDisplayValue('select_idenity');
 		
 		c.server.get({
 			
@@ -170,10 +170,10 @@
         <docs/>
         <field_list/>
         <has_preview>true</has_preview>
-        <id>access_request</id>
+        <id>remove_access</id>
         <internal>false</internal>
         <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
-        <name>Access request</name>
+        <name>Remove access</name>
         <option_schema/>
         <public>false</public>
         <roles/>
@@ -217,31 +217,31 @@
         <servicenow>false</servicenow>
         <sys_class_name>sp_widget</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-01-28 05:16:54</sys_created_on>
-        <sys_id>e14deba2db6200101ed2c4ab0b961902</sys_id>
-        <sys_mod_count>264</sys_mod_count>
-        <sys_name>Access request</sys_name>
+        <sys_created_on>2020-02-03 12:27:58</sys_created_on>
+        <sys_id>ae790c3cdb7244101ed2c4ab0b961910</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Remove access</sys_name>
         <sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package>
         <sys_policy/>
         <sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope>
-        <sys_update_name>sp_widget_e14deba2db6200101ed2c4ab0b961902</sys_update_name>
+        <sys_update_name>sp_widget_ae790c3cdb7244101ed2c4ab0b961910</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-04 06:17:42</sys_updated_on>
+        <sys_updated_on>2020-02-04 06:28:31</sys_updated_on>
         <template><![CDATA[   <div>
     <button id='btnContinue' class="btn btn-primary btn-submit"  ng-click="c.checkAccess(c.selectedEmployee)">Check Access</button>
-   
+    {{c.name}}
      
   </div>
 <br>
 <div class=" panel panel-default " id="result_panel">
   
-  <div class="panel-heading"><h3 class="panel-title">Available Role</h3>
+  <div class="panel-heading"><h3 class="panel-title">Assigned Role</h3>
     </div>
     <div class="panel-body" style="max-width:30;">
       
       
         <ul class="list-group">
-            <li class="list-group-item" ng-click="c.selectItem($index)" ng-model="c.selectEmp" ng-repeat="role in c.access.availble_role ">
+            <li class="list-group-item" ng-click="c.selectItem($index)" ng-model="c.selectEmp" ng-repeat="role in c.access.assign_role ">
               {{role}}
             </li>
 

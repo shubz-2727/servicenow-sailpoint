@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <sc_catalog display_value="Sailpoint Manage">91fd0367db6200101ed2c4ab0b961917</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-31 05:34:42</sys_created_on>
+        <sys_id>af1e876bdb6200101ed2c4ab0b96199a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sailpoint Manage.catalog_sailpoint_manage</sys_name>
+        <sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_sailpoint_manage">af1e43a7db6200101ed2c4ab0b961965</sys_portal_page>
+        <sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_af1e876bdb6200101ed2c4ab0b96199a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-31 05:34:42</sys_updated_on>
+    </sc_catalog_view_mtom>
+</record_update>

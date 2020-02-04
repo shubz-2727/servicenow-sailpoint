@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>100</order>
+        <sc_cat_item display_value="Sailpoint Access Request item">a28137e7db2600101ed2c4ab0b961939</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-31 08:17:33</sys_created_on>
+        <sys_id>8d63bf2bdb2600101ed2c4ab0b961997</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Standard Employee Questions.Sailpoint Access Request item</sys_name>
+        <sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope>
+        <sys_update_name>io_set_item_8d63bf2bdb2600101ed2c4ab0b961997</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-31 08:17:33</sys_updated_on>
+        <variable_set display_value="Standard Employee Questions">e01cab1a4f334200086eeed18110c71f</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</application>
+        <file_path/>
+        <instance_id>0dfc6f02db7bbb008aea21c4059619eb</instance_id>
+        <instance_name>dev93413</instance_name>
+        <name>io_set_item_8d63bf2bdb2600101ed2c4ab0b961997</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>100</order><sc_cat_item display_value="Sailpoint Access Request item">a28137e7db2600101ed2c4ab0b961939</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-31 08:17:33</sys_created_on><sys_id>8d63bf2bdb2600101ed2c4ab0b961997</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Standard Employee Questions.Sailpoint Access Request item</sys_name><sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package><sys_policy/><sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope><sys_update_name>io_set_item_8d63bf2bdb2600101ed2c4ab0b961997</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-31 08:17:33</sys_updated_on><variable_set display_value="Standard Employee Questions">e01cab1a4f334200086eeed18110c71f</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>-1943131082</payload_hash>
+        <record_name>Standard Employee Questions.Sailpoint Access Request item</record_name>
+        <reverted_from/>
+        <source>1ea2e2ccdb2200101ed2c4ab0b961983</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-31 08:17:33</sys_created_on>
+        <sys_id>0d637f6bdb2600101ed2c4ab0b961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16ffaad38770000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-31 08:17:33</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>45637f6b82260010c2fe78a4788fd731</update_guid>
+        <update_guid_history>45637f6b82260010c2fe78a4788fd731:-1943131082</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Standard Employee Questions.Sailpoint Access Request item">a7a3f76bdb2600101ed2c4ab0b961953</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-31 08:18:49</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>487ea9b93f1a4d388155d4c85ae750c1</sys_id>
+        <sys_metadata>8d63bf2bdb2600101ed2c4ab0b961997</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Standard Employee Questions.Sailpoint Access Request item</sys_name>
+        <sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope>
+        <sys_scope_delete display_value="">e810cb81a14e4f88a11bc4bcae504240</sys_scope_delete>
+        <sys_update_name>io_set_item_8d63bf2bdb2600101ed2c4ab0b961997</sys_update_name>
+        <sys_update_version display_value="io_set_item_8d63bf2bdb2600101ed2c4ab0b961997">0d637f6bdb2600101ed2c4ab0b961931</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-31 08:18:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

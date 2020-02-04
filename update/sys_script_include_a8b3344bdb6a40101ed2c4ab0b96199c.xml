@@ -15,18 +15,27 @@ GetSailpointData.prototype = {
 	getAccess: function (empName){
 
 		try { 
-			var r = new sn_ws.RESTMessageV2('x_423236_snow_sail.GetEmployeeAccess', 'GETEmployeeAccess');
-			r.setStringParameterNoEscape('Identity', 'admin');
-			var assigned = [];
-			var available =[];
+			var r = new sn_ws.RESTMessageV2('x_423236_snow_sail.Sailpoint', 'GETEmployeeAccess');
+			
+			var f_name;
             gs.info("in inculde "+empName)
+			
+			var gr = new GlideRecord('sys_user');
+			gr.addQuery('name',empName);
+			gr.query();
+			while(gr.next()){
+				f_name=gr.first_name
+			}
+			
+			r.setStringParameterNoEscape('Identity', f_name);
+			 gs.info("in inculde "+f_name)
 			var response = r.execute();
 			var responseBody = response.getBody();
 			var httpStatus = response.getStatusCode();
 			var responseObj = JSON.parse(responseBody);
 			var re = JSON.stringify(responseBody);
 			gs.info("response "+re);
-			return responseObj;
+			return responseBody;
 
 		}
 		catch(ex) {
@@ -40,13 +49,13 @@ GetSailpointData.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-01-29 05:03:28</sys_created_on>
         <sys_id>a8b3344bdb6a40101ed2c4ab0b96199c</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>GetSailpointData</sys_name>
         <sys_package display_value="Snow-Sailpoint" source="x_423236_snow_sail">5aa2e2ccdb2200101ed2c4ab0b961981</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Snow-Sailpoint">5aa2e2ccdb2200101ed2c4ab0b961981</sys_scope>
         <sys_update_name>sys_script_include_a8b3344bdb6a40101ed2c4ab0b96199c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-01-29 08:52:54</sys_updated_on>
+        <sys_updated_on>2020-02-04 06:11:49</sys_updated_on>
     </sys_script_include>
 </record_update>
